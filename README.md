@@ -8,8 +8,6 @@
 
 - How I will prioritize things now, bug reports > suggestions > requests > comments/concerns.
 
-- You MUST add a label to your issue [http://i.imgur.com/jxXS3P8.png]
-
 ### Bug Report Format :
 Champion Name (eg. Ahri) / Utility (eg. Evade) : 
 
