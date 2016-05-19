@@ -5,7 +5,7 @@
 2. Sign in and go to : https://github.com/berbb/PortAIO/issues
 3. Make a new issue and state the title and what you need/want to report.
 
-- When making an issue be SPECIFIC, don't give me a one fucking line report saying it doesn't work. What doesn't work and maybe why you don't think it works. If an addon crashes, when does it crash? etc... Don't give me fucking bullshit and expect me to read your damn mind and exactly know your situation to fix it.
+- When making an issue be SPECIFIC, don't give me a one fucking line report saying it doesn't work. What doesn't work and maybe why you don't think it works. If an addon crashes, when does it crash, who does it crash with? If you have an issue with a dual-port supported champion, which dual-port are you using? etc... Don't give me fucking bullshit and expect me to read your damn mind and exactly know your situation to fix it.
 
 - How I will prioritize things now, bug reports > suggestions > requests > comments/concerns.
 
