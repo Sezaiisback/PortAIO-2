@@ -11,7 +11,7 @@
     using EloBuddy.SDK.Menu.Values;
     using EloBuddy;
     using EloBuddy.SDK.Menu;
-    internal class Sona : IPlugin
+    internal class Sona
     {
         #region Static Fields
 
@@ -79,7 +79,7 @@
 
 
         public static Menu comboMenu, harassMenu, healMenu, miscellaneousMenu;
-        public void CreateMenu(Menu rootMenu)
+        public void CreateMenu()
         {
             this.Menu = MainMenu.AddMenu("ElSona", "ElSona");
 
@@ -134,6 +134,7 @@
 
         public void Load()
         {
+            CreateMenu();
             Console.WriteLine("Loaded Sona");
             Ignite = this.Player.GetSpellSlot("summonerdot");
 

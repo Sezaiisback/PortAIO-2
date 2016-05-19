@@ -70,6 +70,11 @@ namespace PortAIO.Utility
         public static int jax { get { return Miscc["jax"].Cast<ComboBox>().CurrentValue; } }
         public static int kindred { get { return Miscc["kindred"].Cast<ComboBox>().CurrentValue; } }
         public static int kayle { get { return Miscc["kayle"].Cast<ComboBox>().CurrentValue; } }
+        public static int ekko { get { return Miscc["ekko"].Cast<ComboBox>().CurrentValue; } }
+        public static int rumble { get { return Miscc["rumble"].Cast<ComboBox>().CurrentValue; } }
+        public static int riven { get { return Miscc["riven"].Cast<ComboBox>().CurrentValue; } }
+        public static int graves { get { return Miscc["graves"].Cast<ComboBox>().CurrentValue; } }
+        public static bool banwards { get { return Miscc["banwards"].Cast<CheckBox>().CurrentValue; } }
 
 
         public static Menu Miscc;
@@ -121,6 +126,10 @@ namespace PortAIO.Utility
             "Poppy", // 36
             "Shaco", // 37
             "Leblanc", // 38
+            "Ekko", // 39
+            "Rumble", // 40
+            "Riven", // 41
+            "Graves", // 42
         });
 
         public static void Menu()
@@ -157,7 +166,7 @@ namespace PortAIO.Utility
                 }
                 if (Player.ChampionName.Equals(Champion[6]))
                 {
-                    Miscc.Add("twitch", new ComboBox("Use addon for Twitch : ", 0, "OKTW", "Nechrito Twitch"));
+                    Miscc.Add("twitch", new ComboBox("Use addon for Twitch : ", 0, "OKTW", "Nechrito Twitch", "iTwitch"));
                 }
                 if (Player.ChampionName.Equals(Champion[7]))
                 {
@@ -213,7 +222,7 @@ namespace PortAIO.Utility
                 }
                 if (Player.ChampionName.Equals(Champion[20]))
                 {
-                    Miscc.Add("corki", new ComboBox("Use addon for Corki : ", 0, "ElCorki", "OKTW"));
+                    Miscc.Add("corki", new ComboBox("Use addon for Corki : ", 0, "ElCorki", "OKTW", "D-Corki"));
                 }
                 if (Player.ChampionName.Equals(Champion[21]))
                 {
@@ -287,6 +296,22 @@ namespace PortAIO.Utility
                 {
                     Miscc.Add("leblanc", new ComboBox("Use addon for LeBlanc : ", 0, "PopBlanc", "xQx LeBlanc"));
                 }
+                if (Player.ChampionName.Equals(Champion[39]))
+                {
+                    Miscc.Add("Ekko", new ComboBox("Use addon for Ekko : ", 0, "OKTW", "ElEkko"));
+                }
+                if (Player.ChampionName.Equals(Champion[40]))
+                {
+                    Miscc.Add("Rumble", new ComboBox("Use addon for Rumble : ", 0, "Underrated Rumble", "ElRumble"));
+                }
+                if (Player.ChampionName.Equals(Champion[41]))
+                {
+                    Miscc.Add("Riven", new ComboBox("Use addon for Riven : ", 0, "NechritoRiven", "Heaven Strike Riven"));
+                }
+                if (Player.ChampionName.Equals(Champion[42]))
+                {
+                    Miscc.Add("Graves", new ComboBox("Use addon for Graves : ", 0, "OKTW", "D-Graves"));
+                }
             }
             else
             {
@@ -311,6 +336,7 @@ namespace PortAIO.Utility
             Miscc.Add("gank", new CheckBox("Enable GankAlerter?", false));
             Miscc.AddSeparator();
             Miscc.Add("cheat", new CheckBox("Enable TheCheater?", false));
+            Miscc.Add("banwards", new CheckBox("Enable Sebby BanWars?", false));
             /*
             Miscc.Add("stream", new CheckBox("Enable StreamBuddy?", false));
             public static bool stream { get { return Miscc["stream"].Cast<CheckBox>().CurrentValue; } }

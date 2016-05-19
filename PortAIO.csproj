@@ -172,6 +172,7 @@
     <Compile Include="Dual-Port\BadaoPoppy\BadaoPoppyHelper.cs" />
     <Compile Include="Dual-Port\BadaoPoppy\BadaoPoppyJungleClear.cs" />
     <Compile Include="Dual-Port\BadaoPoppy\BadaoPoppyVariables.cs" />
+    <Compile Include="Dual-Port\BadaoRiven\Program.cs" />
     <Compile Include="Dual-Port\ChallengerSeries\CSPlugin.cs" />
     <Compile Include="Dual-Port\ChallengerSeries\Plugins\Ashe.cs" />
     <Compile Include="Dual-Port\ChallengerSeries\Plugins\Kalista.cs" />
@@ -218,9 +219,18 @@
     <Compile Include="Dual-Port\ChewyMoon Shaco\DangerDB.cs" />
     <Compile Include="Dual-Port\ChewyMoon Shaco\Illuminati.cs" />
     <Compile Include="Dual-Port\ChewyMoon Shaco\ShacoUtil.cs" />
+    <Compile Include="Dual-Port\D-Corki\Program.cs" />
+    <Compile Include="Dual-Port\D-Graves\Program.cs" />
     <Compile Include="Dual-Port\e.MotionKatarina\Program.cs" />
     <Compile Include="Dual-Port\ElEasy Ryze\Ryze.cs" />
     <Compile Include="Dual-Port\ElEasy Sona\Sona.cs" />
+    <Compile Include="Dual-Port\ElEkko\DrawDamage.cs" />
+    <Compile Include="Dual-Port\ElEkko\Drawings.cs" />
+    <Compile Include="Dual-Port\ElEkko\ElEkko.cs" />
+    <Compile Include="Dual-Port\ElEkko\ElEkkoMenu.cs" />
+    <Compile Include="Dual-Port\ElEkko\Program.cs" />
+    <Compile Include="Dual-Port\ElRumble\ElRumbleMenu.cs" />
+    <Compile Include="Dual-Port\ElRumble\Rumble.cs" />
     <Compile Include="Dual-Port\ElXerath\Drawings.cs" />
     <Compile Include="Dual-Port\ElXerath\ElXerathMenu.cs" />
     <Compile Include="Dual-Port\ElXerath\Xerath.cs" />
@@ -263,6 +273,8 @@
     <Compile Include="Dual-Port\iLucian\MenuHelper\MenuGenerator.cs" />
     <Compile Include="Dual-Port\iLucian\Utils\MathHelper.cs" />
     <Compile Include="Dual-Port\iLucian\Variables.cs" />
+    <Compile Include="Dual-Port\iTwitch\Extensions.cs" />
+    <Compile Include="Dual-Port\iTwitch\Twitch.cs" />
     <Compile Include="Dual-Port\NechritoDiana\Classes\Dmg.cs" />
     <Compile Include="Dual-Port\NechritoDiana\Classes\HpBarIndicator.cs" />
     <Compile Include="Dual-Port\NechritoDiana\Classes\Logic.cs" />
@@ -966,6 +978,7 @@
     <Compile Include="Utility\NabbTracker\Utilities\WardTracker.cs" />
     <Compile Include="Utility\RandomUlt\Helpers\LastPositions.cs" />
     <Compile Include="Utility\RandomUlt\Program.cs" />
+    <Compile Include="Utility\SebbyBanWars\Program.cs" />
     <Compile Include="Utility\SkinHack\Program.cs" />
     <Compile Include="Utility\SkinSDK\MenuConfig.cs" />
     <Compile Include="Utility\SkinSDK\Program.cs" />

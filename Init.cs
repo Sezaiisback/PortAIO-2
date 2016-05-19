@@ -115,6 +115,11 @@ namespace PortAIO
                     new TheCheater.TheCheater().Load();
                 }
 
+                if (Loader.banwards)
+                {
+                    Sebby_Ban_War.Program.Game_OnGameLoad();
+                }
+
                 /*
                 if (Loader.stream)
                 {
@@ -179,6 +184,9 @@ namespace PortAIO
                             case 1:
                                 Nechrito_Twitch.Program.OnGameLoad();
                                 break;
+                            case 2:
+                                iTwitch.Twitch.OnGameLoad();
+                                break;
                             default:
                                 SebbyLib.Program.GameOnOnGameLoad();
                                 break;
@@ -240,12 +248,38 @@ namespace PortAIO
                                 break;
                         }
                         break;
+                    case "ekko": // OKTW & ElEkko
+                        switch (Loader.ekko)
+                        {
+                            case 0:
+                                SebbyLib.Program.GameOnOnGameLoad();
+                                break;
+                            case 1:
+                                ElEkko.ElEkko.OnLoad();
+                                break;
+                            default:
+                                SebbyLib.Program.GameOnOnGameLoad();
+                                break;
+                        }
+                        break;
+                    case "graves": // OKTW Graves & D-Graves
+                        switch (Loader.graves)
+                        {
+                            case 0:
+                                SebbyLib.Program.GameOnOnGameLoad();
+                                break;
+                            case 1:
+                                D_Graves.Program.Game_OnGameLoad();
+                                break;
+                            default:
+                                SebbyLib.Program.GameOnOnGameLoad();
+                                break;
+                        }
+                        break;
                     case "anivia": // OKTW - Sebby - All Seeby champs go down here
                     case "thresh":
                     case "annie":
                     case "braum":
-                    case "ekko":
-                    case "graves":
                     case "jinx":
                     case "karthus":
                     case "missfortune":
@@ -307,6 +341,9 @@ namespace PortAIO
                                 break;
                             case 1:
                                 SebbyLib.Program.GameOnOnGameLoad();
+                                break;
+                            case 2:
+                                D_Corki.Program.Game_OnGameLoad();
                                 break;
                             default:
                                 ElCorki.Corki.Game_OnGameLoad();
@@ -689,8 +726,19 @@ namespace PortAIO
                     case "tristana": // ElTristana
                         ElTristana.Tristana.OnLoad();
                         break;
-                    case "riven": // Nechrito Riven
-                        NechritoRiven.Program.OnGameLoad();
+                    case "riven": // Nechrito Riven & Badao Riven
+                        switch (Loader.riven)
+                        {
+                            case 0:
+                                NechritoRiven.Program.OnGameLoad();
+                                break;
+                            case 1:
+                                HeavenStrikeRiven.Program.OnStart();
+                                break;
+                            default:
+                                NechritoRiven.Program.OnGameLoad();
+                                break;
+                        }
                         break;
                     case "talon": // GFuel Talon
                         GFUELTalon.Talon.OnGameLoad();
@@ -822,8 +870,19 @@ namespace PortAIO
                     case "reksai": // D-Reksai
                         D_RekSai.Program.Game_OnGameLoad();
                         break;
-                    case "rumble": // Underrated AIO
-                        new UnderratedAIO.Champions.Rumble();
+                    case "rumble": // Underrated AIO & ElRumble
+                        switch (Loader.rumble)
+                        {
+                            case 0:
+                                new UnderratedAIO.Champions.Rumble();
+                                break;
+                            case 1:
+                                ElRumble.Rumble.OnLoad();
+                                break;
+                            default:
+                                ElRumble.Rumble.OnLoad();
+                                break;
+                        }
                         break;
                     case "sejuani": // ElSejuani
                         ElSejuani.Sejuani.OnLoad();
