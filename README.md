@@ -1,8 +1,11 @@
+# Things are about to be more strict, re-read this.
 # How to report Bugs/Suggestions/Requests/Comments
 ### Before making an issue, check the to-do list before. https://github.com/berbb/PortAIO/blob/master/TO-DO.txt
 1. Make a GitHub accounts if you don't already.
 2. Sign in and go to : https://github.com/berbb/PortAIO/issues
 3. Make a new issue and state the title and what you need/want to report.
+- When making an issue be SPECIFIC, don't give me a one fucking line report saying it doesn't work. What doesn't work and maybe why you don't think it works. If an addon crashes, when does it crash? etc... Don't give me fucking bullshit and expect me to read your damn mind and exactly know your situation to fix it.
+- Also, here is how I will prioritize things now, bug reports > suggestions > requests > comments/concerns.
 
 #### DO. NOT. PM. ME. ABOUT. PORTAIO. ALL COMMENTS GO ON ISSUES.
 #### Don't buy ported addon's, ask me via an issue and I'll mostly likely do it for free.
