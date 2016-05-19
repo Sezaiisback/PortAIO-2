@@ -1,4 +1,5 @@
-# Things are about to be more strict, re-read this.
+# Things are going to be more strict, re-read this.
+
 # How to report Bugs/Suggestions/Requests/Comments
 ### Before making an issue, check the to-do list before. https://github.com/berbb/PortAIO/blob/master/TO-DO.txt
 1. Make a GitHub accounts if you don't already.
