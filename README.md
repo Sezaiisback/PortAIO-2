@@ -3,7 +3,14 @@
 ### Before making an issue, check the to-do list before. https://github.com/berbb/PortAIO/blob/master/TO-DO.txt
 1. Make a GitHub accounts if you don't already.
 2. Sign in and go to : https://github.com/berbb/PortAIO/issues
-3. Make a new issue and state the title and what you need/want to report.
+3. Make a new issue and state the title and what you need/want to report if it is a bug report follow this format :
+
+Champion Name (eg. Ahri) / Utility (eg. Evade) : 
+
+If this is an issue about a champion, is this Champion dual-port supported (Check via PortAIO Misc)? If yes which one? :
+
+Issue/Problems (Try to be as detailed as possible) : 
+
 
 - When making an issue be SPECIFIC, don't give me a one fucking line report saying it doesn't work. What doesn't work and maybe why you don't think it works. If an addon crashes, when does it crash, who does it crash with? If you have an issue with a dual-port supported champion, which dual-port are you using? etc... Don't give me fucking bullshit and expect me to read your damn mind and exactly know your situation to fix it.
 
