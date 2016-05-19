@@ -25,6 +25,14 @@ Issue/Problems (Try to be as detailed as possible) :
 
 ---
 
+## Why was PortAIO gone for a few days?
+- I was planning to comeback June 10th but school got unpredictably manageable lately and plus I tired of Rexy tryna continue my port so I had to comeback lmfao.
+- I was ready to move to GOS (GamingOnSteroids), but I didn't and I'm still thinking about it.
+- I was planning this departure since the beginning of May, cause I needed to catch up on school AND the AIO.
+- @the people on the Discord that like to spread bullshit and but words in my mouth == It had NOTHING to do with Rexy or anyone I just fucking despise him.
+
+---
+
 # Compile Errors
 #####Make sure you have Berb.Common installed @ https://github.com/berbb/Berb.Common
 #####If you still recieve compile errors refer here : https://www.elobuddy.net/topic/21274-installing-ms-build-tools-140/
