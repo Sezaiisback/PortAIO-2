@@ -29,7 +29,7 @@ Issue/Problems (Try to be as detailed as possible) :
 - I was planning to comeback June 10th but school got unpredictably manageable lately and plus I got tired of Rexy tryna continue my port so I had to comeback lmfao.
 - I was ready to move to GOS (GamingOnSteroids), but I didn't and I'm still thinking about it.
 - I was planning this departure since the beginning of May, cause I needed to catch up on school AND the AIO.
-- @the people on the Discord that like to spread bullshit and but words in my mouth == It had NOTHING to do with Rexy or anyone I just fucking despise him.
+- @the people on the Discord that like to spread bullshit and put words in my mouth == It had NOTHING to do with Rexy or anyone I just fucking despise him.
 
 ---
 
